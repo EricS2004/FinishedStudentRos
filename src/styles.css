@@ -1,0 +1,28 @@
+body {
+  background-color: lightcoral;
+}
+
+.App {
+  background-color: brown;
+  font-family: sans-serif;
+  text-align: center;
+  border: solid 10px black;
+  font-family: "Myriad Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Regular"), url("MYRIADPRO-REGULAR.woff") format("woff");
+  box-shadow: 10px 10px brown;
+}
+.studentRow {
+  color: cyan;
+  display: flex;
+  border: solid 3px black;
+}
+
+.studentData {
+  width: 200px;
+}
+
+.name {
+  font-weight: bold;
+}
